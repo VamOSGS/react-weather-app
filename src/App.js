@@ -25,7 +25,7 @@ class App extends Component {
     fetchWeatherData = (country_code ,city)=> {
         const apiKey = "8e654d5abe58444d";
         console.log( country_code, city )
-        const apiUrl = `http://api.wunderground.com/api/${apiKey}/conditions/q/${country_code}/${city}.json`;
+        const apiUrl = `https://api.wunderground.com/api/${apiKey}/conditions/q/${country_code}/${city}.json`;
 
         console.log(apiUrl)
         fetch(apiUrl )
