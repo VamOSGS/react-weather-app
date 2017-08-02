@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f93b95-3307-46d6-8831-695a5fd0918e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/static/js/main.4d875ead.js" afterPath="$PROJECT_DIR$/build/static/js/main.4d875ead.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,25 +26,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+            <state relative-caret-position="142">
+              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <marker date="1501699550523" expanded="true" signature="1509:1612" ph="..." />
-                <marker date="1501699550523" expanded="true" signature="1593:1606" ph="..." />
+                <marker date="1501701086558" expanded="true" signature="1510:1613" ph="..." />
+                <marker date="1501701086558" expanded="true" signature="1594:1607" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="207">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.4d875ead.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/static/js/main.4d875ead.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="0" column="64964" lean-forward="false" selection-start-line="0" selection-start-column="64964" selection-end-line="0" selection-end-column="64964" />
               <folding />
             </state>
           </provider>
@@ -89,6 +99,8 @@
       <find>media</find>
       <find>icon</find>
       <find>/ReactWeatherApp</find>
+      <find>http</find>
+      <find>http://freegeoip.net/json/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,10 +118,11 @@
         <option value="$PROJECT_DIR$/src/css/wu-icons-style.css" />
         <option value="$PROJECT_DIR$/src/components/WeatherDetails.js" />
         <option value="$PROJECT_DIR$/build/static/js/main.d924c854.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/build/static/css/main.3b047f8b.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build/static/js/main.4d875ead.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -171,6 +184,11 @@
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ReactWeatherApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReactWeatherApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -226,12 +244,12 @@
       <workItem from="1501526696553" duration="3599000" />
       <workItem from="1501530346794" duration="5684000" />
       <workItem from="1501611048887" duration="2876000" />
-      <workItem from="1501650346357" duration="7768000" />
+      <workItem from="1501650346357" duration="8299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21927000" />
+    <option name="totallyTimeSpent" value="22458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,8 +300,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <marker date="1501699550523" expanded="true" signature="1509:1612" ph="..." />
-            <marker date="1501699550523" expanded="true" signature="1593:1606" ph="..." />
+            <marker date="1501701086558" expanded="true" signature="1510:1613" ph="..." />
+            <marker date="1501701086558" expanded="true" signature="1594:1607" ph="..." />
           </folding>
         </state>
       </provider>
@@ -310,8 +328,8 @@
           <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <marker date="1501699550523" expanded="true" signature="1509:1612" ph="..." />
-            <marker date="1501699550523" expanded="true" signature="1593:1606" ph="..." />
+            <marker date="1501701086558" expanded="true" signature="1510:1613" ph="..." />
+            <marker date="1501701086558" expanded="true" signature="1594:1607" ph="..." />
           </folding>
         </state>
       </provider>
@@ -361,8 +379,8 @@
           <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <marker date="1501699550523" expanded="true" signature="1509:1612" ph="..." />
-            <marker date="1501699550523" expanded="true" signature="1593:1606" ph="..." />
+            <marker date="1501701086558" expanded="true" signature="1510:1613" ph="..." />
+            <marker date="1501701086558" expanded="true" signature="1594:1607" ph="..." />
           </folding>
         </state>
       </provider>
@@ -699,23 +717,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <marker date="1501699550523" expanded="true" signature="1509:1612" ph="..." />
-            <marker date="1501699550523" expanded="true" signature="1593:1606" ph="..." />
-          </folding>
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.4d875ead.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="236">
+          <caret line="0" column="64964" lean-forward="false" selection-start-line="0" selection-start-column="64964" selection-end-line="0" selection-end-column="64964" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1501701086558" expanded="true" signature="1510:1613" ph="..." />
+            <marker date="1501701086558" expanded="true" signature="1594:1607" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
