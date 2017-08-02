@@ -6,6 +6,7 @@ import WeatherDetails from './components/WeatherDetails';
 class App extends Component {
     state = {
         city: '',
+        country_code: '',
         temperature: '',
         icon: '',
         fetching: true
@@ -17,12 +18,14 @@ class App extends Component {
     fetchIP = () => {
         fetch('http://freegeoip.net/json/')
             .then(response => response.json())
-            .then(({ city }) => this.fetchWeatherData(city))
+            .then(({ country_code,city}) => this.fetchWeatherData( country_code, city))
             .catch(error => console.error());
     }
-    fetchWeatherData = city => {
+
+    fetchWeatherData = (country_code ,city)=> {
         const apiKey = "8e654d5abe58444d";
-        const apiUrl = `http://api.wunderground.com/api/${apiKey}/conditions/q/CA/${city}.json`;
+        console.log( country_code, city )
+        const apiUrl = `http://api.wunderground.com/api/${apiKey}/conditions/q/${country_code}/${city}.json`;
 
         console.log(apiUrl)
         fetch(apiUrl )
