@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
   .App {
     height: 100vh;
@@ -8,18 +9,50 @@ body {
     justify-content: center;
     align-items: center;
     animation: bgAnim 10s ease-in-out infinite;
+
     .WeatherDetails {
       text-align: center;
       color: #ffffff;
       font-size: 50px;
       line-height: 55px;
-      animation:fadeIn 0.9s ease-in-out;
+      animation: fadeIn 0.9s ease-in-out;
+      .Search {
+        width: 300px;
+        height: 50px;
+        margin: auto;
+        animation: fadeIn 0.9s ease-in-out;
+        input {
+
+          font-size: 30px;
+          color: #fff;
+          width: 100%;
+          outline: none;
+          height: 100%;
+          background: none;
+          border: none;
+          border-bottom: 2px solid #fff;
+          opacity: 0.6;
+          transition: 0.3s ease-in opacity;
+          text-transform: capitalize;
+          text-align: center;
+          
+          &::placeholder {
+            font-size: 20px;
+            color: #fff;
+            text-transform: uppercase;
+          }
+          &:focus {
+            opacity: 1;
+            transition: 0.3s ease-in opacity;
+          }
+        }
+      }
       .icon {
         background-color: #ffffff;
         border-radius: 50%;
         width: 50px;
         height: 50px;
-        margin:auto;
+        margin: auto;
       }
       .temperature {
         span {
@@ -38,25 +71,53 @@ body {
       height: 100%;
       width: 100%;
       background-color: #fff;
-      animation:loaderAnim 0.5s infinite;
+      animation: loaderAnim 0.5s infinite;
     }
   }
 }
 
 @keyframes bgAnim {
-  0% {background-color: #2196F3;}
-  25% {background-color: #3F51B5;}
-  50% {background-color: #03A9F4;}
-  75% {background-color: #00B0FF;}
-  100% {background-color: #2196F3;}
+  0% {
+    background-color: #2196F3;
+  }
+  25% {
+    background-color: #3F51B5;
+  }
+  50% {
+    background-color: #03A9F4;
+  }
+  75% {
+    background-color: #00B0FF;
+  }
+  100% {
+    background-color: #2196F3;
+  }
 }
-@keyframes loaderAnim{
-  0% {width:200px; transform:translateX(100px); filter: blur(5px); background-color: #FAFAFA;}
-  50%{ transform:translateX(0px);}
-  100%{width:100px; right: 0; transform:translateX(-100px); filter: blur(0px); background-color: #E0E0E0;}
+
+@keyframes loaderAnim {
+  0% {
+    width: 200px;
+    transform: translateX(100px);
+    filter: blur(5px);
+    background-color: #FAFAFA;
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  100% {
+    width: 100px;
+    right: 0;
+    transform: translateX(-100px);
+    filter: blur(0px);
+    background-color: #E0E0E0;
+  }
 }
 
 @keyframes fadeIn {
-  0%{opacity: 0;}
-  100%{opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

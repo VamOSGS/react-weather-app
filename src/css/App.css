@@ -24,6 +24,48 @@ body .App {
     line-height: 55px;
     -webkit-animation: fadeIn 0.9s ease-in-out;
     animation: fadeIn 0.9s ease-in-out; }
+    body .App .WeatherDetails .Search {
+      width: 300px;
+      height: 50px;
+      margin: auto;
+      -webkit-animation: fadeIn 0.9s ease-in-out;
+      animation: fadeIn 0.9s ease-in-out; }
+      body .App .WeatherDetails .Search input {
+        font-size: 30px;
+        color: #fff;
+        width: 100%;
+        outline: none;
+        height: 100%;
+        background: none;
+        border: none;
+        border-bottom: 2px solid #fff;
+        opacity: 0.6;
+        -webkit-transition: 0.3s ease-in opacity;
+        -o-transition: 0.3s ease-in opacity;
+        transition: 0.3s ease-in opacity;
+        text-transform: capitalize;
+        text-align: center; }
+        body .App .WeatherDetails .Search input::-webkit-input-placeholder {
+          font-size: 20px;
+          color: #fff;
+          text-transform: uppercase; }
+        body .App .WeatherDetails .Search input::-moz-placeholder {
+          font-size: 20px;
+          color: #fff;
+          text-transform: uppercase; }
+        body .App .WeatherDetails .Search input:-ms-input-placeholder {
+          font-size: 20px;
+          color: #fff;
+          text-transform: uppercase; }
+        body .App .WeatherDetails .Search input::placeholder {
+          font-size: 20px;
+          color: #fff;
+          text-transform: uppercase; }
+        body .App .WeatherDetails .Search input:focus {
+          opacity: 1;
+          -webkit-transition: 0.3s ease-in opacity;
+          -o-transition: 0.3s ease-in opacity;
+          transition: 0.3s ease-in opacity; }
     body .App .WeatherDetails .icon {
       background-color: #ffffff;
       border-radius: 50%;

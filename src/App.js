@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
 import './css/App.css';
 import './css/wu-icons-style.css';
-import WeatherDetails from './components/WeatherDetails';
+import WeatherDetails from './components/WeatherDetails.jsx';
 
 class App extends Component {
-    state = {
-        city: '',
-        country_code: '',
-        temperature: '',
-        icon: '',
-        fetching: true
+    constructor (props) {
+        super(props);
+        this.state = {
+            city: '',
+            country_code: '',
+            temperature: '',
+            icon: '',
+            fetching: true
+        }
     }
+
 
     componentDidMount() {
         this.fetchIP();
