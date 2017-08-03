@@ -21,8 +21,12 @@ body {
         height: 50px;
         margin: auto;
         animation: fadeIn 0.9s ease-in-out;
+        p{
+          position: absolute;
+          top: 200px;
+          text-transform: capitalize;
+        }
         input {
-
           font-size: 30px;
           color: #fff;
           width: 100%;
