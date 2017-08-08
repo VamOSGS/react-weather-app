@@ -28,9 +28,9 @@ class App extends Component {
 
     fetchWeatherData = (country_code ,city)=> {
         const apiKey = "8e654d5abe58444d";
-        console.log( country_code, city )
+        // console.log( country_code, city )
         const apiUrl = `https://api.wunderground.com/api/${apiKey}/conditions/q/${country_code}/${city}.json`;
-        console.log(apiUrl)
+        // console.log(apiUrl)
         fetch(apiUrl)
             .then((response) => response.json())
             .then((data) => {
@@ -44,7 +44,8 @@ class App extends Component {
     }
     render() {
         const {fetching,  city, temperature, icon} = this.state;
-        return fetching ?
+        return fetching
+            ?
             <div className="App"><div className="loader"></div></div>
             :
             <div className="App">
