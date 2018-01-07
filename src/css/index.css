@@ -4,3 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
 }
+body .App {
+  flex-direction: column;
+  overflow: hidden;
+}
+body .App .Search {
+  margin: 0 auto;
+}

@@ -9,48 +9,48 @@ body {
     justify-content: center;
     align-items: center;
     animation: bgAnim 10s ease-in-out infinite;
-
+    .Search {
+      width: 300px;
+      height: 50px;
+      margin: auto;
+      animation: fadeIn 0.9s ease-in-out;
+      p{
+        position: absolute;
+        top: 200px;
+        text-transform: capitalize;
+      }
+      input {
+        font-size: 30px;
+        color: #fff;
+        width: 100%;
+        outline: none;
+        height: 100%;
+        background: none;
+        border: none;
+        border-bottom: 2px solid #fff;
+        opacity: 0.6;
+        transition: 0.3s ease-in opacity;
+        text-transform: capitalize;
+        text-align: center;
+        
+        &::placeholder {
+          font-size: 20px;
+          color: #fff;
+          text-transform: uppercase;
+        }
+        &:focus {
+          opacity: 1;
+          transition: 0.3s ease-in opacity;
+        }
+      }
+    }
     .WeatherDetails {
       text-align: center;
       color: #ffffff;
       font-size: 50px;
       line-height: 55px;
       animation: fadeIn 0.9s ease-in-out;
-      .Search {
-        width: 300px;
-        height: 50px;
-        margin: auto;
-        animation: fadeIn 0.9s ease-in-out;
-        p{
-          position: absolute;
-          top: 200px;
-          text-transform: capitalize;
-        }
-        input {
-          font-size: 30px;
-          color: #fff;
-          width: 100%;
-          outline: none;
-          height: 100%;
-          background: none;
-          border: none;
-          border-bottom: 2px solid #fff;
-          opacity: 0.6;
-          transition: 0.3s ease-in opacity;
-          text-transform: capitalize;
-          text-align: center;
-          
-          &::placeholder {
-            font-size: 20px;
-            color: #fff;
-            text-transform: uppercase;
-          }
-          &:focus {
-            opacity: 1;
-            transition: 0.3s ease-in opacity;
-          }
-        }
-      }
+      
       .icon {
         background-color: #ffffff;
         border-radius: 50%;
@@ -65,21 +65,21 @@ body {
       }
     }
   }
-  .loader {
-    width: 200px;
-    height: 2px;
-    overflow: hidden;
-    &::after {
-      content: '';
-      display: block;
-      height: 100%;
-      width: 100%;
-      background-color: #fff;
-      animation: loaderAnim 0.5s infinite;
-    }
+ 
+}
+.loader {
+  width: 200px;
+  height: 2px;
+  overflow: hidden;
+  &::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    animation: loaderAnim 0.5s infinite;
   }
 }
-
 @keyframes bgAnim {
   0% {
     background-color: #2196F3;
